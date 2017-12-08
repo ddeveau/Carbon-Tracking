@@ -20,11 +20,13 @@ class ProfileCollectionView: UIView {
     
     convenience init(){
         self.init(frame: CGRect.zero)
-        initLabels()
+        initStackViews()
     }
     
-    fileprivate func initLabels(){
+    fileprivate func initStackViews(){
         self.inputLabelView = makeLabel(imageName: "plus.png", data: "Input Data")
+        let tapRec = UITapGestureRecognizer(target: self, action: #selector(ProfileCollectionView.inputTapped))
+        self.inputLabelView.addGestureRecognizer(tapRec)
         self.addSubview(self.inputLabelView)
         self.inputLabelView.pinTop(v: self, o: 60)
         self.inputLabelView.pinLeftRight(v: self)
@@ -51,9 +53,24 @@ class ProfileCollectionView: UIView {
         self.mapLabel.pinLeftRight(v: self)
         self.mapLabel.width(w: 200)
         self.mapLabel.height(h: 50)
+         
+//        let testButton = UIButton()
+//        let atString: NSMutableAttributedString = NSMutableAttributedString()
+//        let text = NSAttributedString(string: "Map View Butt")
+//        let attach: NSTextAttachment = NSTextAttachment()
+//        let img = UIImage(named: "smallworld2.png")
+//        attach.image = img
+//        atString.append(NSAttributedString(attachment: attach))
+//        atString.append(text)
+//        testButton.setAttributedTitle(atString, for: .normal)
+//        self.addSubview(testButton)
+//        testButton.pinAll(v: self)
+//
     }
-    
-    
+    func inputTapped(){
+        print("hi input tapped")
+    }
+
     fileprivate func makeLabel(imageName: String, data: String) -> UIStackView{
         let stackView = UIStackView()
         stackView.axis = .horizontal

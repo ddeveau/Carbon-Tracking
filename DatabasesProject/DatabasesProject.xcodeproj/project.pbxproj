@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		292097311FD9ECF8007D486C /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 292097301FD9ECF8007D486C /* MainViewController.swift */; };
+		292097331FDA08D8007D486C /* NewUserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 292097321FDA08D8007D486C /* NewUserViewController.swift */; };
+		292097391FDA17F9007D486C /* HomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 292097381FDA17F9007D486C /* HomePageViewController.swift */; };
+		29921E521FB4DCE500FBD1B2 /* Contstraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29921E511FB4DCE500FBD1B2 /* Contstraints.swift */; };
 		2992BF4C1FB4C7DA0018A100 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2992BF4B1FB4C7DA0018A100 /* AppDelegate.swift */; };
 		2992BF4E1FB4C7DA0018A100 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2992BF4D1FB4C7DA0018A100 /* ViewController.swift */; };
 		2992BF511FB4C7DA0018A100 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2992BF4F1FB4C7DA0018A100 /* Main.storyboard */; };
@@ -14,6 +18,9 @@
 		2992BF561FB4C7DA0018A100 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2992BF541FB4C7DA0018A100 /* LaunchScreen.storyboard */; };
 		2992BF611FB4C7DA0018A100 /* DatabasesProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2992BF601FB4C7DA0018A100 /* DatabasesProjectTests.swift */; };
 		2992BF6C1FB4C7DA0018A100 /* DatabasesProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2992BF6B1FB4C7DA0018A100 /* DatabasesProjectUITests.swift */; };
+		2993DC091FB4F72E0052E471 /* ProfileCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2993DC081FB4F72E0052E471 /* ProfileCollectionView.swift */; };
+		2993DC0D1FB543CA0052E471 /* CalendarViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2993DC0C1FB543CA0052E471 /* CalendarViewCell.swift */; };
+		2993DC111FB544BF0052E471 /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2993DC101FB544BF0052E471 /* CalendarViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +41,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		292097301FD9ECF8007D486C /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		292097321FDA08D8007D486C /* NewUserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewUserViewController.swift; sourceTree = "<group>"; };
+		292097381FDA17F9007D486C /* HomePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageViewController.swift; sourceTree = "<group>"; };
+		29921E511FB4DCE500FBD1B2 /* Contstraints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contstraints.swift; sourceTree = "<group>"; };
 		2992BF481FB4C7DA0018A100 /* DatabasesProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DatabasesProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2992BF4B1FB4C7DA0018A100 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2992BF4D1FB4C7DA0018A100 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +58,9 @@
 		2992BF671FB4C7DA0018A100 /* DatabasesProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DatabasesProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2992BF6B1FB4C7DA0018A100 /* DatabasesProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabasesProjectUITests.swift; sourceTree = "<group>"; };
 		2992BF6D1FB4C7DA0018A100 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2993DC081FB4F72E0052E471 /* ProfileCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ProfileCollectionView.swift; path = Assets.xcassets/ProfileCollectionView.swift; sourceTree = "<group>"; };
+		2993DC0C1FB543CA0052E471 /* CalendarViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarViewCell.swift; sourceTree = "<group>"; };
+		2993DC101FB544BF0052E471 /* CalendarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +117,13 @@
 				2992BF521FB4C7DA0018A100 /* Assets.xcassets */,
 				2992BF541FB4C7DA0018A100 /* LaunchScreen.storyboard */,
 				2992BF571FB4C7DA0018A100 /* Info.plist */,
+				29921E511FB4DCE500FBD1B2 /* Contstraints.swift */,
+				2993DC081FB4F72E0052E471 /* ProfileCollectionView.swift */,
+				2993DC0C1FB543CA0052E471 /* CalendarViewCell.swift */,
+				2993DC101FB544BF0052E471 /* CalendarViewController.swift */,
+				292097301FD9ECF8007D486C /* MainViewController.swift */,
+				292097321FDA08D8007D486C /* NewUserViewController.swift */,
+				292097381FDA17F9007D486C /* HomePageViewController.swift */,
 			);
 			path = DatabasesProject;
 			sourceTree = "<group>";
@@ -259,8 +280,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				292097311FD9ECF8007D486C /* MainViewController.swift in Sources */,
+				2993DC111FB544BF0052E471 /* CalendarViewController.swift in Sources */,
 				2992BF4E1FB4C7DA0018A100 /* ViewController.swift in Sources */,
 				2992BF4C1FB4C7DA0018A100 /* AppDelegate.swift in Sources */,
+				2993DC091FB4F72E0052E471 /* ProfileCollectionView.swift in Sources */,
+				29921E521FB4DCE500FBD1B2 /* Contstraints.swift in Sources */,
+				292097331FDA08D8007D486C /* NewUserViewController.swift in Sources */,
+				292097391FDA17F9007D486C /* HomePageViewController.swift in Sources */,
+				2993DC0D1FB543CA0052E471 /* CalendarViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,7 +460,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = tahiaemran.DatabasesProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -447,7 +475,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = tahiaemran.DatabasesProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
