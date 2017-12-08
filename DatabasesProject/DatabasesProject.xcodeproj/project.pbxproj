@@ -10,6 +10,7 @@
 		292097311FD9ECF8007D486C /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 292097301FD9ECF8007D486C /* MainViewController.swift */; };
 		292097331FDA08D8007D486C /* NewUserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 292097321FDA08D8007D486C /* NewUserViewController.swift */; };
 		292097391FDA17F9007D486C /* HomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 292097381FDA17F9007D486C /* HomePageViewController.swift */; };
+		2920973B1FDA3B42007D486C /* StatsPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2920973A1FDA3B42007D486C /* StatsPageViewController.swift */; };
 		29921E521FB4DCE500FBD1B2 /* Contstraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29921E511FB4DCE500FBD1B2 /* Contstraints.swift */; };
 		2992BF4C1FB4C7DA0018A100 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2992BF4B1FB4C7DA0018A100 /* AppDelegate.swift */; };
 		2992BF4E1FB4C7DA0018A100 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2992BF4D1FB4C7DA0018A100 /* ViewController.swift */; };
@@ -44,6 +45,7 @@
 		292097301FD9ECF8007D486C /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		292097321FDA08D8007D486C /* NewUserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewUserViewController.swift; sourceTree = "<group>"; };
 		292097381FDA17F9007D486C /* HomePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageViewController.swift; sourceTree = "<group>"; };
+		2920973A1FDA3B42007D486C /* StatsPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsPageViewController.swift; sourceTree = "<group>"; };
 		29921E511FB4DCE500FBD1B2 /* Contstraints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contstraints.swift; sourceTree = "<group>"; };
 		2992BF481FB4C7DA0018A100 /* DatabasesProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DatabasesProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2992BF4B1FB4C7DA0018A100 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -124,6 +126,7 @@
 				292097301FD9ECF8007D486C /* MainViewController.swift */,
 				292097321FDA08D8007D486C /* NewUserViewController.swift */,
 				292097381FDA17F9007D486C /* HomePageViewController.swift */,
+				2920973A1FDA3B42007D486C /* StatsPageViewController.swift */,
 			);
 			path = DatabasesProject;
 			sourceTree = "<group>";
@@ -285,6 +288,7 @@
 				2992BF4E1FB4C7DA0018A100 /* ViewController.swift in Sources */,
 				2992BF4C1FB4C7DA0018A100 /* AppDelegate.swift in Sources */,
 				2993DC091FB4F72E0052E471 /* ProfileCollectionView.swift in Sources */,
+				2920973B1FDA3B42007D486C /* StatsPageViewController.swift in Sources */,
 				29921E521FB4DCE500FBD1B2 /* Contstraints.swift in Sources */,
 				292097331FDA08D8007D486C /* NewUserViewController.swift in Sources */,
 				292097391FDA17F9007D486C /* HomePageViewController.swift in Sources */,
